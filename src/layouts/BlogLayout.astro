@@ -7,11 +7,11 @@ export interface Props {
 }
 
 let { title, description: desc, keywords, date } = Astro.props?.frontmatter;
-if (!title) title = "Ayodeji";
+if (!title) title = "Toluwalase";
 if (!desc)
   desc =
     "A portal into my thoughts, thoughts, experiences, ideas, visions, and more. What's the point of this? Well, I'm not sure, but here you go anyhow.";
-if (!keywords) keywords = "ayodeji, osasona, trulyao, ayo, developer, engineer, php, python, java, c++, node, typescript";
+if (!keywords) keywords = "toluwalase, tolu, kalejaiye, tolufbg, tolu0x, developer, engineer, html, css, javascript, react, tailwind, typescript";
 ---
 
 <!DOCTYPE html>
@@ -21,26 +21,26 @@ if (!keywords) keywords = "ayodeji, osasona, trulyao, ayo, developer, engineer, 
     <meta name="theme-color" content="#171717" />
     <meta name="description" content={desc} />
     <meta name="keywords" content={keywords} />
-    <link rel="icon" type="image/x-icon" href="/images/preview.jpg" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.trulyao.dev" />
+    <meta property="og:url" content="" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={desc} />
-    <meta property="og:image" content="/images/preview.jpg" />
+    <meta property="og:image" content="/images/favicon-32x32.png" />
 
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="http://www.trulyao.dev" />
+    <meta property="twitter:card" content="" />
+    <meta property="twitter:url" content="" />
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={desc} />
-    <meta property="twitter:image" content="/images/preview.jpg" />
+    <meta property="twitter:image" content="/images/favicon-32x32.png" />
 
     <meta property="og:site_name" content="" />
     <meta property="og:site" content="" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={desc} />
-    <meta property="og:image" content="/images/preview.jpg" />
-    <meta property="og:url" content="http://www.trulyao.dev" />
+    <meta property="og:image" content="/images/favicon-32x32.png" />
+    <meta property="og:url" content="" />
     <title>{title}</title>
   </head>
   <body class="w-[88vw] pt-6 pb-10 mx-auto">
