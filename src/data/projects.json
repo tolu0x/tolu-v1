@@ -6,5 +6,21 @@
     "github_url": "",
     "in_progress": true,
     "status": "DEVELOPMENT"
+  },
+  {
+    "name": "OnDeck",
+    "description": "A responsive landing page for a conferencing tool",
+    "url": "https://tolu0x.github.io/ondeck-landing-page/",
+    "github_url": "https://github.com/tolu0x/ondeck-landing-page",
+    "in_progress": false,
+    "status": "ACTIVE"
+  },
+  {
+    "name": "Blogr",
+    "description": "A responsive landing page for a publishing brand",
+    "url": "https://tolu0x.github.io/blogr-landing-page/",
+    "github_url": "https://github.com/tolu0x/blogr-landing-page",
+    "in_progress": false,
+    "status": "ACTIVE"
   }
 ]

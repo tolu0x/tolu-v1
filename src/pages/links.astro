@@ -26,16 +26,6 @@ import BackHome from "../components/BackHome.astro";
         ))
       }
     </div>
-    <SectionHeader>Articles You May Find Interesting</SectionHeader>
-    <div class="flex flex-col gap-2 mt-4 mb-6">
-      {
-        articles.map((article) => (
-          <Link href={article?.url} newTab={true}>
-            {article?.title}
-          </Link>
-        ))
-      }
-    </div>
   </main>
   <MinimalFooter />
 </Layout>
